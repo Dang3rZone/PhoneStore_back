@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const dayjs = require('dayjs');
 
 const Phone = require('../models/Phone');
 

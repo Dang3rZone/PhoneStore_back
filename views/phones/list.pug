@@ -1,0 +1,24 @@
+extends ../layout.pug
+
+block content
+    h1 List of Phones
+    table.table
+        thead
+            tr
+                th Name
+                th Image
+                th Manufacturer
+                th Price
+                th Description
+        tbody
+            each phone in phones
+                tr
+                    td=phone.name 
+                    td
+                        img(src=phone.image)
+                    td=phone.manufacturer 
+                    td #{phone.price}€
+                    td=phone.description 
+                    td
+                        a.btn.btn-sm.btn-info.mr-2(href="/phones/edit/"+phone._id) Edit
+                        a.btn.btn-sm.btn-danger(href="/phones/delete/"+phone._id, onclick="return confirm('Are you sure?')") Delete
