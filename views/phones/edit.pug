@@ -1,0 +1,22 @@
+extends ../layout.pug
+
+block content 
+    h1 Edit Phone
+    form(action="/phones/update", method="POST")
+        .form-group
+            label Name
+            input.form-control(type="text", name="name", value=phone.name)
+        .form-group
+            label Price
+            input.form-control(type="number", name="price", value=phone.price)
+        .form-group
+            label Manufacturer
+            input.form-control(type="text", name="manufacturer", value=phone.manufacturer)
+        .form-group
+            label Description
+            input.form-control(type="text", name="description", value=phone.description)
+        .form-group
+            label Image
+            input.form-control(type="text", name="image", value=phone.image)
+        input(type="hidden", name="id", value=phone._id)
+        input.btn.btn-block.btn-info(type="submit", value="Enviar")

@@ -16,7 +16,7 @@ router.get('/delete/:idPhone', async (req, res) => {
   res.redirect('/phones');
 });
 
-router.get('/edit/:idProduct', async (req, res) => {
+router.get('/edit/:idPhone', async (req, res) => {
   const phone = await Phone.findById(req.params.idPhone);
   res.render('phones/edit', { phone });
 });
