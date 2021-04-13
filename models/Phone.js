@@ -9,4 +9,4 @@ const phoneSchema = new Schema({
   description: String,
 });
 
-module.exports = mongoose.model('producto', phoneSchema);
+module.exports = mongoose.model('phone', phoneSchema);

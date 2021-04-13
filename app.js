@@ -6,13 +6,13 @@ const logger = require('morgan');
 
 require('./dbConfig');
 
-const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
 const app = express();
 
 const indexRouter = require('./routes/index');
-const productosRouter = require('./routes/productos');
+const productosRouter = require('./routes/phones');
+const apiRouter = require('./routes/api');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
