@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
-const mongoUrl = 'mongodb://127.0.0.1/phones';
+const mongoUrl = process.env.HOST;
 
 mongoose.connect(mongoUrl, {
   useNewUrlParser: true,
