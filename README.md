@@ -1,4 +1,4 @@
-# PhoneStore_back
+# PhoneWiki_BackEnd
 Back end of full stack phone store using Node.js and Express with MongoDB
 
 
