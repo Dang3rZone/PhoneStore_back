@@ -16,7 +16,7 @@ The technologies used are the following:
 
 
 
-## If you want to download the back end of phoneWiki:
+## If you want to download the back end of PhoneWiki:
 
 1- You will need to do a 'NPM install' to install the node_modules folder and all the dependencies
 
@@ -30,8 +30,8 @@ The technologies used are the following:
 
 EXTRA:  You can check this article to see how to configure ATLAS with Heroku => https://developer.mongodb.com/how-to/use-atlas-on-heroku/
 
-## If you want to download the front end of phoneWiki:
+## If you want to download the React Front End of PhoneWiki:
 
-1-You will need to do a npm install to install the ng module file and all the dependencies.
+1- You will need to do a npm install to install all the dependencies.
 
 2- You will need to change the url to fetch the data.
