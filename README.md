@@ -4,6 +4,7 @@ Back end of full stack phone store using Node.js and Express with MongoDB
 
 Complete development of a website, including front-end, back-end and creation of a database through RestApi. 
 
+This back-end posses all end points for a API CRUD and also have a CRUD for the backend with views. 
 
 The technologies used are the following:
 
