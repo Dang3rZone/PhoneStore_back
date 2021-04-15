@@ -22,9 +22,9 @@ The technologies used are the following:
 
 2- You will need to configure a NO-related database (Mongo for example or use ATLAS to deploy  your DB). 
 
-3- You will need to connect the local data base with the back-end app. 
+3- You will need to connect the local data base or deployed DB with the back-end app. 
 
-3.1- Use dotenv lirbrary (create a .env and store ATLAS URL for example) to protect your DB. 
+3.1- Use dotenv library (create a .env and store ATLAS URL for example) to protect your DB. 
 
 5-You will also need to change it in the dbConfig.js file.
 
